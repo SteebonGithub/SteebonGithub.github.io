@@ -50,6 +50,18 @@ button {
   margin-bottom: 40px;
 }
 
+.callbutton {
+  padding: 5px;
+  margin: 0px;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 .title {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -64,6 +76,11 @@ button {
   display: flex;
   justify-content: center;
   gap: 52px;
+}
+
+.sized {
+  border-radius: 10px;
+  border: 2px solid #1F2937
 }
 
 
@@ -149,6 +166,7 @@ button {
   background-color: #E5E7EB;
   display: flex;
   justify-content: center;
+  padding: 60px;
 }
 
 .quotecontainer {
@@ -158,9 +176,67 @@ button {
 }
 
 .quote1 {
-  text-align: center;
+  text-align: left;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: lighter;
 }
 
 .quote2 {
  text-align: end;
+ font-weight: bold;
+ font-size: 18px;
+}
+
+.calltoaction {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.innercalltoaction {
+  background-color: #3882f6;
+  display: flex;
+  max-width: 60%;
+  flex: 1;
+  padding: 30px;
+  justify-content: center;
+  border-radius: 25px;  
+  }
+
+#call1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  max-width: 60%;
+  flex: 1;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+#call2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  max-width: 40%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#smallertext {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
 }
